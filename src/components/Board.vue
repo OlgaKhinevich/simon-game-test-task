@@ -37,8 +37,7 @@
                 v-model="selectedSpeed">
                 <label :for="index"> {{speed.name}}</label>
             </p>
-            <button v-if="this.level==0" class="start-button js-start" @click="startGame">Start</button>
-            <span class="info js-info hidden"></span>
+            <button v-if="this.level == 0" class="start-button" @click="startGame">Старт</button>
         </footer>
     </div>
   </div>
@@ -201,17 +200,11 @@ export default {
         margin-bottom: 10px 0 15px 0;
     }
 
-    .hidden {
-        display: none !important;
-    }
+    .hidden { display: none !important; }
 
-    .invisble {
-        visibility: hidden;
-    }
+    .invisble { visibility: hidden; }
 
-    header {
-        font-size: 18px;
-    }
+    header { font-size: 18px; }
 
     .heading {
         font-size: 2em;
@@ -228,9 +221,7 @@ export default {
         margin: 20px 0 30px 0;
     }
 
-    .unclickable {
-        pointer-events: none;
-    }
+    .unclickable { pointer-events: none; }
 
     .button-red {
         background-color: #E53935;
@@ -322,6 +313,7 @@ export default {
         font-size: 24px;
         margin-bottom: 20px;
     }
+
     .info-section p { margin-bottom: 5px; }
 
     .start-button {
@@ -350,9 +342,7 @@ export default {
         outline: 0;
     }
 
-    .info {
-        font-size: 22px;
-    }
+    .info { font-size: 22px; }
 
     @media screen and (max-width: 550px) {
         .game {
