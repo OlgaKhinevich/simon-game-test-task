@@ -28,7 +28,7 @@
         <footer class="info-section">
             <p class="note">{{note}}</p>
             <div v-if="this.level == 0">
-                <p v-if="this.level == 0">Выберите уровень скорости:</p><br>
+                <p>Выберите уровень скорости:</p><br>
                 <p v-for="(speed, index) in speedLevel" :key="index"><input 
                     class="radio-btn"
                     name="speed"
@@ -153,7 +153,8 @@ export default {
 
             if (this.humanSequence.length === this.sequence.length) {
                 if (this.humanSequence.length === 20) {
-                    resetGame('Поздравляем! Вы прошли все уровни');
+                    this.note = 'Поздравляем! Вы прошли все уровни!';
+                    this.resetGame();
                     return;
                 }
                 this.note = 'Правильно! Вы перешли на следующий уровень!';
