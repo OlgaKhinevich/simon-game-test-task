@@ -28,7 +28,7 @@
         <footer class="info-section">
             <p class="note">{{note}}</p>
             <div v-if="this.level == 0">
-                <p v-if="this.level == 0">Выберите уровень скорости:</p><br>
+                <p>Выберите уровень скорости:</p><br>
                 <p v-for="(speed, index) in speedLevel" :key="index"><input 
                     class="radio-btn"
                     name="speed"
