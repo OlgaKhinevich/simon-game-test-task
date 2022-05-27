@@ -1,4 +1,4 @@
-# Interface for the client creation form
+# Simon game
 Test task for the position of Junior Frontend Developer
 
 ## View the project: *link*
