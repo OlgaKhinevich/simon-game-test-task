@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: '/simon-game-test-task/'
+    publicPath: '/test_task_simon_game/'
 }
