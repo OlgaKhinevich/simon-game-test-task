@@ -14,8 +14,8 @@ Rules:
 + If the player successfully replays the sequence, then they move on to the next round.
 + If the player doesn't play the sequence, then the game is over (a notification should
 be displayed to the user).
-+ The number of buttons (sequence) increases with each round.
-[Additional information about the game](https://en.wikipedia.org/wiki/Simon_(game))
++ The number of buttons (sequence) increases with each round.  
+[Additional information about the game](https://en.wikipedia.org/wiki/Simon_(game))  
 [Game example](http://www.kellyking.me/projects/simon/)
 
 ### Employer's requirements  
