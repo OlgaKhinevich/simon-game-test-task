@@ -1,7 +1,7 @@
 # Simon game
 Test task for the position of Junior Frontend Developer
 
-## View the project: *link*
+## View the project: [*here*](https://olgakhinevich.github.io/test_task_simon_game/)
 
 ### Technologies
 + Vue.js (Vue2) 
